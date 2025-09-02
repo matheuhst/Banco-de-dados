@@ -38,11 +38,11 @@ INSERT INTO participantes_partidas(
     id_jogador,
     pontuacao,
     ordem_jogo
-) VALUES (1, 1, 6, 1),
-         (1, 2, 7, 2),
+) VALUES (1, 1, 6, 5),
+         (1, 2, 7, 4),
          (1, 3, 8, 3),
-         (1, 4, 9, 4),
-         (1, 5, 10, 4);
+         (1, 4, 9, 2),
+         (1, 5, 10, 1);
 
 INSERT INTO avaliacoes_jogos(
     nota,
@@ -55,4 +55,4 @@ INSERT INTO avaliacoes_jogos(
          (4, 'Diferente, porém pouco cativante.', 3, 5),
          (4, 'Jogo de estratégia interessante', 5, 3),
          (5, 'Melhor descobrimento de jogos de cartas!', 2, 4),
-         (1, 'Perdi. Não gostei', 4, 3),
+         (1, 'Perdi. Não gostei', 4, 3);
